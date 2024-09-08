@@ -1,5 +1,10 @@
 import streamlit as st
 
+st.set_page_config(
+    page_title="Goats",
+    page_icon=":goat:"
+)
+
 st.title("Things about goats :goat:")
 st.write("Let's get started! Answer this question to start...")
 
